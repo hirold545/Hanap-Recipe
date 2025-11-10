@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7722DC5E2EBBAECF00959FA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7722DC3C2EBBAECC00959FA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7722DC432EBBAECC00959FA0;
+			remoteInfo = HanapRecipe;
+		};
+		7722DC682EBBAECF00959FA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7722DC3C2EBBAECC00959FA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7722DC432EBBAECC00959FA0;
+			remoteInfo = HanapRecipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7722DC442EBBAECC00959FA0 /* HanapRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanapRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7722DC5D2EBBAECF00959FA0 /* HanapRecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanapRecipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7722DC672EBBAECF00959FA0 /* HanapRecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanapRecipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7722DC6F2EBBAECF00959FA0 /* Exceptions for "HanapRecipe" folder in "HanapRecipe" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7722DC432EBBAECC00959FA0 /* HanapRecipe */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7722DC462EBBAECC00959FA0 /* HanapRecipe */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7722DC6F2EBBAECF00959FA0 /* Exceptions for "HanapRecipe" folder in "HanapRecipe" target */,
+			);
+			path = HanapRecipe;
+			sourceTree = "<group>";
+		};
+		7722DC602EBBAECF00959FA0 /* HanapRecipeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HanapRecipeTests;
+			sourceTree = "<group>";
+		};
+		7722DC6A2EBBAECF00959FA0 /* HanapRecipeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HanapRecipeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7722DC412EBBAECC00959FA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7722DC5A2EBBAECF00959FA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7722DC642EBBAECF00959FA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7722DC3B2EBBAECC00959FA0 = {
+			isa = PBXGroup;
+			children = (
+				7722DC462EBBAECC00959FA0 /* HanapRecipe */,
+				7722DC602EBBAECF00959FA0 /* HanapRecipeTests */,
+				7722DC6A2EBBAECF00959FA0 /* HanapRecipeUITests */,
+				7722DC452EBBAECC00959FA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7722DC452EBBAECC00959FA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7722DC442EBBAECC00959FA0 /* HanapRecipe.app */,
+				7722DC5D2EBBAECF00959FA0 /* HanapRecipeTests.xctest */,
+				7722DC672EBBAECF00959FA0 /* HanapRecipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7722DC432EBBAECC00959FA0 /* HanapRecipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7722DC702EBBAECF00959FA0 /* Build configuration list for PBXNativeTarget "HanapRecipe" */;
+			buildPhases = (
+				7722DC402EBBAECC00959FA0 /* Sources */,
+				7722DC412EBBAECC00959FA0 /* Frameworks */,
+				7722DC422EBBAECC00959FA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7722DC462EBBAECC00959FA0 /* HanapRecipe */,
+			);
+			name = HanapRecipe;
+			packageProductDependencies = (
+			);
+			productName = HanapRecipe;
+			productReference = 7722DC442EBBAECC00959FA0 /* HanapRecipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7722DC5C2EBBAECF00959FA0 /* HanapRecipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7722DC752EBBAECF00959FA0 /* Build configuration list for PBXNativeTarget "HanapRecipeTests" */;
+			buildPhases = (
+				7722DC592EBBAECF00959FA0 /* Sources */,
+				7722DC5A2EBBAECF00959FA0 /* Frameworks */,
+				7722DC5B2EBBAECF00959FA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7722DC5F2EBBAECF00959FA0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7722DC602EBBAECF00959FA0 /* HanapRecipeTests */,
+			);
+			name = HanapRecipeTests;
+			packageProductDependencies = (
+			);
+			productName = HanapRecipeTests;
+			productReference = 7722DC5D2EBBAECF00959FA0 /* HanapRecipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7722DC662EBBAECF00959FA0 /* HanapRecipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7722DC782EBBAECF00959FA0 /* Build configuration list for PBXNativeTarget "HanapRecipeUITests" */;
+			buildPhases = (
+				7722DC632EBBAECF00959FA0 /* Sources */,
+				7722DC642EBBAECF00959FA0 /* Frameworks */,
+				7722DC652EBBAECF00959FA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7722DC692EBBAECF00959FA0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7722DC6A2EBBAECF00959FA0 /* HanapRecipeUITests */,
+			);
+			name = HanapRecipeUITests;
+			packageProductDependencies = (
+			);
+			productName = HanapRecipeUITests;
+			productReference = 7722DC672EBBAECF00959FA0 /* HanapRecipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7722DC3C2EBBAECC00959FA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					7722DC432EBBAECC00959FA0 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					7722DC5C2EBBAECF00959FA0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 7722DC432EBBAECC00959FA0;
+					};
+					7722DC662EBBAECF00959FA0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 7722DC432EBBAECC00959FA0;
+					};
+				};
+			};
+			buildConfigurationList = 7722DC3F2EBBAECC00959FA0 /* Build configuration list for PBXProject "HanapRecipe" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7722DC3B2EBBAECC00959FA0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7722DC452EBBAECC00959FA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7722DC432EBBAECC00959FA0 /* HanapRecipe */,
+				7722DC5C2EBBAECF00959FA0 /* HanapRecipeTests */,
+				7722DC662EBBAECF00959FA0 /* HanapRecipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7722DC422EBBAECC00959FA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7722DC5B2EBBAECF00959FA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7722DC652EBBAECF00959FA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7722DC402EBBAECC00959FA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7722DC592EBBAECF00959FA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7722DC632EBBAECF00959FA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7722DC5F2EBBAECF00959FA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7722DC432EBBAECC00959FA0 /* HanapRecipe */;
+			targetProxy = 7722DC5E2EBBAECF00959FA0 /* PBXContainerItemProxy */;
+		};
+		7722DC692EBBAECF00959FA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7722DC432EBBAECC00959FA0 /* HanapRecipe */;
+			targetProxy = 7722DC682EBBAECF00959FA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7722DC712EBBAECF00959FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HanapRecipe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hirold.HanapRecipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7722DC722EBBAECF00959FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HanapRecipe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hirold.HanapRecipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7722DC732EBBAECF00959FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7722DC742EBBAECF00959FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7722DC762EBBAECF00959FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hirold.HanapRecipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanapRecipe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HanapRecipe";
+			};
+			name = Debug;
+		};
+		7722DC772EBBAECF00959FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hirold.HanapRecipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanapRecipe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HanapRecipe";
+			};
+			name = Release;
+		};
+		7722DC792EBBAECF00959FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hirold.HanapRecipeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HanapRecipe;
+			};
+			name = Debug;
+		};
+		7722DC7A2EBBAECF00959FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hirold.HanapRecipeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HanapRecipe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7722DC3F2EBBAECC00959FA0 /* Build configuration list for PBXProject "HanapRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7722DC732EBBAECF00959FA0 /* Debug */,
+				7722DC742EBBAECF00959FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7722DC702EBBAECF00959FA0 /* Build configuration list for PBXNativeTarget "HanapRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7722DC712EBBAECF00959FA0 /* Debug */,
+				7722DC722EBBAECF00959FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7722DC752EBBAECF00959FA0 /* Build configuration list for PBXNativeTarget "HanapRecipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7722DC762EBBAECF00959FA0 /* Debug */,
+				7722DC772EBBAECF00959FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7722DC782EBBAECF00959FA0 /* Build configuration list for PBXNativeTarget "HanapRecipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7722DC792EBBAECF00959FA0 /* Debug */,
+				7722DC7A2EBBAECF00959FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7722DC3C2EBBAECC00959FA0 /* Project object */;
+}
