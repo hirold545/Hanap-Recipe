@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		77C8CAEC2EC51B62008B5010 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 77C8CAEB2EC51B62008B5010 /* SDWebImage */; };
+		77C8CAEE2EC51B62008B5010 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 77C8CAED2EC51B62008B5010 /* SDWebImageMapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7722DC5E2EBBAECF00959FA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C8CAEE2EC51B62008B5010 /* SDWebImageMapKit in Frameworks */,
+				77C8CAEC2EC51B62008B5010 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +132,8 @@
 			);
 			name = HanapRecipe;
 			packageProductDependencies = (
+				77C8CAEB2EC51B62008B5010 /* SDWebImage */,
+				77C8CAED2EC51B62008B5010 /* SDWebImageMapKit */,
 			);
 			productName = HanapRecipe;
 			productReference = 7722DC442EBBAECC00959FA0 /* HanapRecipe.app */;
@@ -208,6 +217,9 @@
 			);
 			mainGroup = 7722DC3B2EBBAECC00959FA0;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				77C8CAEA2EC51B62008B5010 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7722DC452EBBAECC00959FA0 /* Products */;
 			projectDirPath = "";
@@ -563,6 +575,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		77C8CAEA2EC51B62008B5010 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		77C8CAEB2EC51B62008B5010 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77C8CAEA2EC51B62008B5010 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		77C8CAED2EC51B62008B5010 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77C8CAEA2EC51B62008B5010 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7722DC3C2EBBAECC00959FA0 /* Project object */;
 }

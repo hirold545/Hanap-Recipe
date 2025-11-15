@@ -31,9 +31,18 @@ class RecipeCell: UICollectionViewCell {
         recipeImageView.clipsToBounds = true
         
         // Label
-        titleLabel.font = UIFont.systemFont(ofSize: 16, weight: .semibold)
-        titleLabel.textColor = .black
+        titleLabel.font = UIFont.systemFont(ofSize: 10, weight: .semibold)
+        titleLabel.textColor = .darkGray
         titleLabel.backgroundColor = .clear
+        titleLabel.numberOfLines = 1
+        titleLabel.adjustsFontSizeToFitWidth = true
+        titleLabel.minimumScaleFactor = 0.3  // 70% of original size
+        titleLabel.lineBreakMode = .byWordWrapping
+    }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        recipeImageView.image = nil
     }
 }
 

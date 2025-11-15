@@ -34,6 +34,10 @@ class HomeViewController: UIViewController {
 
     @IBAction func startButton(_ sender: UIButton) {
         performSegue(withIdentifier: "gotoMain", sender: self)
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let tabBar = storyboard.instantiateViewController(withIdentifier: "MainTabBar")
+//        tabBar.modalPresentationStyle = .fullScreen
+//        self.present(tabBar, animated: true)
     }
     
 }
